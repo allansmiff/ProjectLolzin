@@ -1,0 +1,14 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Summoner Form</title>
+</head>
+<body>
+<form method="get" action="summonerView">
+    {% csrf_token %}
+    {{form}}
+    <button type="submit">Pesquisar</button>
+</form>
+</body>
+</html>
